@@ -1,11 +1,25 @@
-<h1 align="center">Hi 👋, I'm Sarath</h1>
-<h3 align="center">A passionate developer from India</h3>
+<h1 align="center">Hi, I'm Sarath</h1>
+<h3 align="center">💻 Software Developer | AI Enthusiast | Full-Stack Developer</h3>
 
-- 🔭 I’m currently working on **GEN AI**
+I'm a passionate software developer with a strong foundation in full-stack development and a growing interest in AI. I enjoy building innovative solutions using modern technologies like React, Spring Boot, and AWS. Recently, I've been diving into the world of local LLMs and AI, exploring the potential of LM Studio and LlamaIndex to create cutting-edge applications.
 
-- 🌱 I’m currently learning **AWS**
+🔍 Interests:
 
-- 📫 How to reach me **sarathms789@gmail.com**
+- Full-Stack Development (React, Spring Boot, AWS)
+- AI & Machine Learning
+- Local LLMs and RAG applications
+- Cloud Computing
+
+🚀 Experience:
+
+- Developed a real-time bus tracking app using React, Python, and AWS
+- Backend Developer Intern at Incture, where I worked with Spring Boot and REST APIs
+- Created an employee management system with Spring and React
+
+🌱 Currently Learning:
+
+ - Advanced AI concepts and local LLM implementation
+ - DevOps practices, including CI/CD technologies
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
