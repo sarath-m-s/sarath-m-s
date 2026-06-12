@@ -1,108 +1,90 @@
-<h1 align="center">Hi, I'm Sarath</h1>
-<h3 align="center">💻 Software Developer | AI Enthusiast | Full-Stack Developer</h3>
+<h1 align="center">Hi, I'm Sarath 👋</h1>
+<h3 align="center">AI Engineer · Agentic Systems & LLM Infrastructure</h3>
 
-I'm a passionate software developer with a strong foundation in full-stack development and a growing interest in AI. I enjoy building innovative solutions using modern technologies like React, Spring Boot, and AWS. Recently, I've been diving into the world of local LLMs and AI, exploring the potential of LM Studio and LlamaIndex to create cutting-edge applications.
-
-🔍 Interests:
-
-- Full-Stack Development (React, Spring Boot, AWS)
-- AI & Machine Learning
-- Local LLMs and RAG applications
-- Cloud Computing
-
-🚀 Experience:
-
-- Developed a real-time bus tracking app using React, Python, and AWS
-- Backend Developer Intern at Incture, where I worked with Spring Boot and REST APIs
-- Created an employee management system with Spring and React
-
-🌱 Currently Learning:
-
- - Advanced AI concepts and local LLM implementation
- - DevOps practices, including CI/CD technologies
-
-### Languages and Tools
-
-#### Programming Languages
-<p align="left">
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="cplusplus"/>
-  </a>
-  <a href="https://www.java.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="java"/>
-  </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python"/>
-  </a>
+<p align="center">
+  <a href="https://linkedin.com/in/iamsarathms"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/></a>
+  <a href="mailto:sarathms789@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
+  <img src="https://img.shields.io/badge/AWS_Certified-Solutions_Architect_Associate-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws-saa"/>
 </p>
 
-#### Web Development
+---
+
+I build **production AI agents and the infrastructure they run on** — multi-agent orchestration, LLM context-management systems, and serverless platforms on AWS. Currently an Associate Software Engineer at **KeyValue Software Systems**, working on an AI-powered learning platform where I ship real-time tutoring agents, knowledge-graph workflows, and high-concurrency backends.
+
+My interest is **infrastructure-level AI tooling** rather than application-layer demos: reliability, determinism, cost control, and observability for agent systems.
+
+### What I work on
+
+- 🤖 **Agentic systems** — LangGraph / LangChain agents, human-in-the-loop workflows, multi-agent orchestration
+- 🧠 **LLM infrastructure** — context-window management, streaming inference, RAG, knowledge graphs, MCP
+- ☁️ **Serverless AWS** — Bedrock AgentCore, Lambda, Step Functions, API Gateway, Terraform IaC
+- ⚡ **High-concurrency backends** — FastAPI + Redis services handling 5,000+ concurrent users
+
+---
+
+### 🚀 Featured Projects
+
+**[l1-pager](https://github.com/sarath-m-s)** — *Virtual memory for LLM context windows*
+A drop-in `BaseChatModel` wrapper that pages out large/stale tool results and demand-pages them back when the model asks. Importance-scored eviction (LRU / HYBRID), Redis or in-memory heap, deterministic page IDs for idempotent retries. Published on **PyPI** (`l1-pager`) and **npm** (`l1-pager-core`).
+`Python · LangChain · LangGraph · Redis`
+
+**Data Migration Agent Suite** — *Multi-tenant agent platform on AWS Bedrock AgentCore*
+A reusable agent platform (Python SDK, 18 Terraform modules, Next.js 14 control plane) plus a five-agent pipeline that takes a source database to a fully sequenced migration plan. Cut new-agent time-to-production from weeks to a single PR.
+`Bedrock AgentCore · LangGraph · Terraform · Next.js · S3 Vectors`
+
+**SQL Agent & Bedrock Tooling** — *Natural-language → SQL automation*
+LLM-powered NL→SQL pipeline with secure Bedrock inference and an automated deployment pipeline that took setup from 3 days to 15 minutes.
+`Python · AWS Bedrock · SQL`
+
+**Ghost Pulse** — *Privacy-first developer-productivity CLI*
+Passively observes shell activity, git events, and file changes to surface toil patterns. Local-first with RAG-powered error-fix suggestions over a SQLite vector store.
+`Python · SQLite · RAG`
+
+---
+
+### 🛠️ Tech Stack
+
+**AI / LLM**
+
 <p align="left">
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/>
-  </a>
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/>
-  </a>
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react"/>
-  </a>
-  <a href="https://spring.io/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="spring"/>
-  </a>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="langchain"/>
+  <img src="https://img.shields.io/badge/LangGraph-FF6F61?style=for-the-badge&logo=langgraph&logoColor=white" alt="langgraph"/>
+  <img src="https://img.shields.io/badge/AWS_Bedrock-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="bedrock"/>
+  <img src="https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="mcp"/>
+  <img src="https://img.shields.io/badge/RAG-5A67D8?style=for-the-badge&logoColor=white" alt="rag"/>
 </p>
 
-#### Tools and Platforms
+**Languages & Backend**
+
 <p align="left">
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Amazon%20AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql"/>
-  </a>
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
-  </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="linux"/>
-  </a>
-  <a href="https://postman.com" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="postman"/>
-  </a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="typescript"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="fastapi"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs"/>
 </p>
 
-#### Design and Miscellaneous
+**Frontend**
+
 <p align="left">
-  <a href="https://www.figma.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="figma"/>
-  </a>
-  <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobeillustrator&logoColor=white" alt="illustrator"/>
-  </a>
-  <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white" alt="photoshop"/>
-  </a>
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="arduino"/>
-  </a>
-  <a href="https://www.blender.org/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="blender"/>
-  </a>
-  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="matlab"/>
-  </a>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="nextjs"/>
+  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="react-native"/>
 </p>
 
+**Cloud & Infrastructure**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/iamsarathms" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="iamsarathms" height="30" width="40" /></a>
-<a href="https://instagram.com/iam_sarath_ms" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="iam_sarath_ms" height="30" width="40" /></a>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws"/>
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="terraform"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="gh-actions"/>
 </p>
 
+**Databases**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="postgres"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="redis"/>
+  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white" alt="dynamodb"/>
+  <img src="https://img.shields.io/badge/pgvector-008bb9?style=for-the-badge&logo=postgresql&logoColor=white" alt="pgvector"/>
+</p>
